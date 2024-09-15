@@ -24,7 +24,7 @@ yarn add defer-function
 ## Usage
 
 ```ts
-import getDeferFunction from "./src";
+import getDeferFunction from "defer-function";
 
 function main() {
   using defer = getDeferFunction();
@@ -43,8 +43,7 @@ console.log("!");
 ```
 
 ```ts
-import getDeferFunction from "./src";
-import getDeferFunction from "./src";
+import getDeferFunction from "defer-function";
 
 async function print(message: string) {
   return new Promise<void>((resolve) => {
