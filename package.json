@@ -1,0 +1,37 @@
+{
+  "name": "defer-function",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "7078731+igrek8@users.noreply.github.com",
+  "description": "A defer function defers the execution of a function until the surrounding function returns",
+  "keywords": [
+    "defer",
+    "function"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igrek8/defer-function"
+  },
+  "bugs": {
+    "url": "https://github.com/igrek8/defer-function/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "node --test --require ts-node/register src/index.test.ts"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "typescript": "5.6.2"
+  }
+}
